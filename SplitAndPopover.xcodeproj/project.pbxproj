@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0F085F1F0616FE009E3EE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0F085E1F0616FE009E3EE9 /* Foundation.framework */; };
 		AE3939661F04A8EA00189238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3939651F04A8EA00189238 /* AppDelegate.swift */; };
-		AE3939681F04A8EA00189238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3939671F04A8EA00189238 /* ViewController.swift */; };
 		AE39396B1F04A8EA00189238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3939691F04A8EA00189238 /* Main.storyboard */; };
 		AE39396D1F04A8EA00189238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE39396C1F04A8EA00189238 /* Assets.xcassets */; };
 		AE3939701F04A8EA00189238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39396E1F04A8EA00189238 /* LaunchScreen.storyboard */; };
 		AE39397B1F04A8EA00189238 /* SplitAndPopoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39397A1F04A8EA00189238 /* SplitAndPopoverTests.swift */; };
 		AE3939861F04A8EB00189238 /* SplitAndPopoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3939851F04A8EB00189238 /* SplitAndPopoverUITests.swift */; };
+		AE3939951F04A9A900189238 /* TopicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3939941F04A9A900189238 /* TopicsTableViewController.swift */; };
+		AE3939971F04A9D900189238 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3939961F04A9D900189238 /* TutorialViewController.swift */; };
+		AE3939991F04AA0100189238 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3939981F04AA0100189238 /* ContainerViewController.swift */; };
+		AE39399C1F04AA3400189238 /* RLXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39399B1F04AA3400189238 /* RLXMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE0F085E1F0616FE009E3EE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE3939621F04A8EA00189238 /* SplitAndPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitAndPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3939651F04A8EA00189238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE3939671F04A8EA00189238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE39396A1F04A8EA00189238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE39396C1F04A8EA00189238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE39396F1F04A8EA00189238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		AE3939811F04A8EB00189238 /* SplitAndPopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitAndPopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3939851F04A8EB00189238 /* SplitAndPopoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAndPopoverUITests.swift; sourceTree = "<group>"; };
 		AE3939871F04A8EB00189238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3939941F04A9A900189238 /* TopicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsTableViewController.swift; sourceTree = "<group>"; };
+		AE3939961F04A9D900189238 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		AE3939981F04AA0100189238 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		AE39399B1F04AA3400189238 /* RLXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLXMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0F085F1F0616FE009E3EE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE0F085D1F0616FD009E3EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F085E1F0616FE009E3EE9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE3939591F04A8EA00189238 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 				AE3939791F04A8EA00189238 /* SplitAndPopoverTests */,
 				AE3939841F04A8EB00189238 /* SplitAndPopoverUITests */,
 				AE3939631F04A8EA00189238 /* Products */,
+				AE0F085D1F0616FD009E3EE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +115,9 @@
 		AE3939641F04A8EA00189238 /* SplitAndPopover */ = {
 			isa = PBXGroup;
 			children = (
+				AE39399A1F04AA0A00189238 /* Classes */,
+				AE3939931F04A97100189238 /* Controllers */,
 				AE3939651F04A8EA00189238 /* AppDelegate.swift */,
-				AE3939671F04A8EA00189238 /* ViewController.swift */,
 				AE3939691F04A8EA00189238 /* Main.storyboard */,
 				AE39396C1F04A8EA00189238 /* Assets.xcassets */,
 				AE39396E1F04A8EA00189238 /* LaunchScreen.storyboard */,
@@ -123,6 +142,24 @@
 				AE3939871F04A8EB00189238 /* Info.plist */,
 			);
 			path = SplitAndPopoverUITests;
+			sourceTree = "<group>";
+		};
+		AE3939931F04A97100189238 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE3939941F04A9A900189238 /* TopicsTableViewController.swift */,
+				AE3939961F04A9D900189238 /* TutorialViewController.swift */,
+				AE3939981F04AA0100189238 /* ContainerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AE39399A1F04AA0A00189238 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE39399B1F04AA3400189238 /* RLXMLParser.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3939681F04A8EA00189238 /* ViewController.swift in Sources */,
+				AE3939951F04A9A900189238 /* TopicsTableViewController.swift in Sources */,
+				AE39399C1F04AA3400189238 /* RLXMLParser.swift in Sources */,
+				AE3939991F04AA0100189238 /* ContainerViewController.swift in Sources */,
+				AE3939971F04A9D900189238 /* TutorialViewController.swift in Sources */,
 				AE3939661F04A8EA00189238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +554,7 @@
 				AE39398C1F04A8EB00189238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE39398D1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopoverTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +563,7 @@
 				AE39398F1F04A8EB00189238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE3939901F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopoverUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +572,7 @@
 				AE3939921F04A8EB00189238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
