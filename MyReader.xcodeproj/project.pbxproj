@@ -39,16 +39,16 @@
 
 /* Begin PBXFileReference section */
 		AE0F085E1F0616FE009E3EE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AE3939621F04A8EA00189238 /* SplitAndPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitAndPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3939621F04A8EA00189238 /* MyReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3939651F04A8EA00189238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE39396A1F04A8EA00189238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE39396C1F04A8EA00189238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE39396F1F04A8EA00189238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3939711F04A8EA00189238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE3939761F04A8EA00189238 /* SplitAndPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitAndPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3939761F04A8EA00189238 /* MyReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE39397A1F04A8EA00189238 /* SplitAndPopoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAndPopoverTests.swift; sourceTree = "<group>"; };
 		AE39397C1F04A8EA00189238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE3939811F04A8EB00189238 /* SplitAndPopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitAndPopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3939811F04A8EB00189238 /* MyReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3939851F04A8EB00189238 /* SplitAndPopoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAndPopoverUITests.swift; sourceTree = "<group>"; };
 		AE3939871F04A8EB00189238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3939941F04A9A900189238 /* TopicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsTableViewController.swift; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 		AE3939631F04A8EA00189238 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE3939621F04A8EA00189238 /* SplitAndPopover.app */,
-				AE3939761F04A8EA00189238 /* SplitAndPopoverTests.xctest */,
-				AE3939811F04A8EB00189238 /* SplitAndPopoverUITests.xctest */,
+				AE3939621F04A8EA00189238 /* MyReader.app */,
+				AE3939761F04A8EA00189238 /* MyReaderTests.xctest */,
+				AE3939811F04A8EB00189238 /* MyReaderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE3939611F04A8EA00189238 /* SplitAndPopover */ = {
+		AE3939611F04A8EA00189238 /* MyReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE39398A1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopover" */;
+			buildConfigurationList = AE39398A1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "MyReader" */;
 			buildPhases = (
 				AE39395E1F04A8EA00189238 /* Sources */,
 				AE39395F1F04A8EA00189238 /* Frameworks */,
@@ -177,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = SplitAndPopover;
+			name = MyReader;
 			productName = SplitAndPopover;
-			productReference = AE3939621F04A8EA00189238 /* SplitAndPopover.app */;
+			productReference = AE3939621F04A8EA00189238 /* MyReader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE3939751F04A8EA00189238 /* SplitAndPopoverTests */ = {
+		AE3939751F04A8EA00189238 /* MyReaderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE39398D1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopoverTests" */;
+			buildConfigurationList = AE39398D1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "MyReaderTests" */;
 			buildPhases = (
 				AE3939721F04A8EA00189238 /* Sources */,
 				AE3939731F04A8EA00189238 /* Frameworks */,
@@ -195,14 +195,14 @@
 			dependencies = (
 				AE3939781F04A8EA00189238 /* PBXTargetDependency */,
 			);
-			name = SplitAndPopoverTests;
+			name = MyReaderTests;
 			productName = SplitAndPopoverTests;
-			productReference = AE3939761F04A8EA00189238 /* SplitAndPopoverTests.xctest */;
+			productReference = AE3939761F04A8EA00189238 /* MyReaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AE3939801F04A8EB00189238 /* SplitAndPopoverUITests */ = {
+		AE3939801F04A8EB00189238 /* MyReaderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE3939901F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopoverUITests" */;
+			buildConfigurationList = AE3939901F04A8EB00189238 /* Build configuration list for PBXNativeTarget "MyReaderUITests" */;
 			buildPhases = (
 				AE39397D1F04A8EB00189238 /* Sources */,
 				AE39397E1F04A8EB00189238 /* Frameworks */,
@@ -213,9 +213,9 @@
 			dependencies = (
 				AE3939831F04A8EB00189238 /* PBXTargetDependency */,
 			);
-			name = SplitAndPopoverUITests;
+			name = MyReaderUITests;
 			productName = SplitAndPopoverUITests;
-			productReference = AE3939811F04A8EB00189238 /* SplitAndPopoverUITests.xctest */;
+			productReference = AE3939811F04A8EB00189238 /* MyReaderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE39395D1F04A8EA00189238 /* Build configuration list for PBXProject "SplitAndPopover" */;
+			buildConfigurationList = AE39395D1F04A8EA00189238 /* Build configuration list for PBXProject "MyReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,9 +260,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE3939611F04A8EA00189238 /* SplitAndPopover */,
-				AE3939751F04A8EA00189238 /* SplitAndPopoverTests */,
-				AE3939801F04A8EB00189238 /* SplitAndPopoverUITests */,
+				AE3939611F04A8EA00189238 /* MyReader */,
+				AE3939751F04A8EA00189238 /* MyReaderTests */,
+				AE3939801F04A8EB00189238 /* MyReaderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		AE3939781F04A8EA00189238 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE3939611F04A8EA00189238 /* SplitAndPopover */;
+			target = AE3939611F04A8EA00189238 /* MyReader */;
 			targetProxy = AE3939771F04A8EA00189238 /* PBXContainerItemProxy */;
 		};
 		AE3939831F04A8EB00189238 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE3939611F04A8EA00189238 /* SplitAndPopover */;
+			target = AE3939611F04A8EA00189238 /* MyReader */;
 			targetProxy = AE3939821F04A8EB00189238 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -459,7 +459,7 @@
 				INFOPLIST_FILE = SplitAndPopover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SweTech.SplitAndPopover;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyReader;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -472,7 +472,7 @@
 				INFOPLIST_FILE = SplitAndPopover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SweTech.SplitAndPopover;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyReader;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -488,7 +488,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SweTech.SplitAndPopoverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitAndPopover.app/SplitAndPopover";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReader.app/MyReader";
 			};
 			name = Debug;
 		};
@@ -503,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SweTech.SplitAndPopoverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitAndPopover.app/SplitAndPopover";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReader.app/MyReader";
 			};
 			name = Release;
 		};
@@ -538,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE39395D1F04A8EA00189238 /* Build configuration list for PBXProject "SplitAndPopover" */ = {
+		AE39395D1F04A8EA00189238 /* Build configuration list for PBXProject "MyReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE3939881F04A8EB00189238 /* Debug */,
@@ -547,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE39398A1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopover" */ = {
+		AE39398A1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "MyReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE39398B1F04A8EB00189238 /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE39398D1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopoverTests" */ = {
+		AE39398D1F04A8EB00189238 /* Build configuration list for PBXNativeTarget "MyReaderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE39398E1F04A8EB00189238 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE3939901F04A8EB00189238 /* Build configuration list for PBXNativeTarget "SplitAndPopoverUITests" */ = {
+		AE3939901F04A8EB00189238 /* Build configuration list for PBXNativeTarget "MyReaderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE3939911F04A8EB00189238 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE3939611F04A8EA00189238"
-               BuildableName = "SplitAndPopover.app"
-               BlueprintName = "SplitAndPopover"
-               ReferencedContainer = "container:SplitAndPopover.xcodeproj">
+               BuildableName = "MyReader.app"
+               BlueprintName = "MyReader"
+               ReferencedContainer = "container:MyReader.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE3939751F04A8EA00189238"
-               BuildableName = "SplitAndPopoverTests.xctest"
-               BlueprintName = "SplitAndPopoverTests"
-               ReferencedContainer = "container:SplitAndPopover.xcodeproj">
+               BuildableName = "MyReaderTests.xctest"
+               BlueprintName = "MyReaderTests"
+               ReferencedContainer = "container:MyReader.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE3939801F04A8EB00189238"
-               BuildableName = "SplitAndPopoverUITests.xctest"
-               BlueprintName = "SplitAndPopoverUITests"
-               ReferencedContainer = "container:SplitAndPopover.xcodeproj">
+               BuildableName = "MyReaderUITests.xctest"
+               BlueprintName = "MyReaderUITests"
+               ReferencedContainer = "container:MyReader.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE3939611F04A8EA00189238"
-            BuildableName = "SplitAndPopover.app"
-            BlueprintName = "SplitAndPopover"
-            ReferencedContainer = "container:SplitAndPopover.xcodeproj">
+            BuildableName = "MyReader.app"
+            BlueprintName = "MyReader"
+            ReferencedContainer = "container:MyReader.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE3939611F04A8EA00189238"
-            BuildableName = "SplitAndPopover.app"
-            BlueprintName = "SplitAndPopover"
-            ReferencedContainer = "container:SplitAndPopover.xcodeproj">
+            BuildableName = "MyReader.app"
+            BlueprintName = "MyReader"
+            ReferencedContainer = "container:MyReader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE3939611F04A8EA00189238"
-            BuildableName = "SplitAndPopover.app"
-            BlueprintName = "SplitAndPopover"
-            ReferencedContainer = "container:SplitAndPopover.xcodeproj">
+            BuildableName = "MyReader.app"
+            BlueprintName = "MyReader"
+            ReferencedContainer = "container:MyReader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
